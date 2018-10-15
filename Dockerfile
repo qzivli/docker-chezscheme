@@ -1,5 +1,6 @@
-FROM ubuntu:18.04
+FROM debian:stretch
 
+COPY sources.list /etc/apt/sources.list
 COPY ChezScheme.docker /root/ChezScheme
 
 RUN apt-get update && \
