@@ -3,6 +3,7 @@
 git clone https://github.com/cisco/ChezScheme.git
 cd ChezScheme
 git checkout
+git pull
 git submodule init
 git submodule update
 
