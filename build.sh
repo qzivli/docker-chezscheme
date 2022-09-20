@@ -1,4 +1,4 @@
-#!/bin/sh -
+#!/usr/bin/env bash
 
 git clone https://github.com/cisco/ChezScheme.git
 cd ChezScheme
